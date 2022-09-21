@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TextBoxuu   {
+public class TextBoxx {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -16,6 +16,7 @@ public class TextBoxuu   {
 		driver.findElement(By.id("userEmail")).sendKeys("meghadmeghad@gmail.com");
 		driver.findElement(By.id("currentAddress")).sendKeys("Katreguppe");
 		driver.findElement(By.id("permanentAddress")).sendKeys("Chitradurga");
-		driver.findElement(By.id("submit")).click();
+		//driver.findElement(By.id("submit")).click();
+		driver.quit();
 	}
 }
