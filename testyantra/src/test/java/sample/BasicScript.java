@@ -28,6 +28,7 @@ public class BasicScript {
 		driver.findElement(By.id("salary")).sendKeys("1000000");
 		driver.findElement(By.id("department")).sendKeys("Testing");
 		driver.close();
+		driver.get("https://www.pepsi.com");
 		
 	}
 
