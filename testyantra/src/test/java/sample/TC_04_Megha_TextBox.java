@@ -33,7 +33,7 @@ public class TC_04_Megha_TextBox {
 		System.out.println("Permanent Address entered Successfully");
 
 //	    driver.findElement(By.id("submit")).click();
-//	    System.out.println("Submitted Succesfully");
+//	    System.out.println("Submitted Successfully");
 
 		driver.quit();
 		System.out.println("demoqa closed Successfully");
